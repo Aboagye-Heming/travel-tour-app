@@ -13,7 +13,7 @@
 
 @layer base {
   li {
-    @apply p-4 text-xl;
+    @apply p-4;
   }
   h1 {
     @apply text-3xl md:text-4xl font-bold;
