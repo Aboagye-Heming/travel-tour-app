@@ -19,9 +19,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-20 px-4">
-      <div >
-        <h1 className={logo ? 'hidden' : 'block'}>HEMNEGY.</h1>
+    <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white">
+      <div>
+        <h1 className={logo ? "hidden" : "block"}>HEMNEGY.</h1>
       </div>
       <ul className="md:flex hidden">
         <li>Home</li>
@@ -30,7 +30,7 @@ const Navbar = () => {
         <li>View</li>
         <li>Book</li>
       </ul>
-      <div> 
+      <div>
         <ul className="md:flex hidden">
           <li>
             <BsPerson size={20} />
@@ -56,7 +56,7 @@ const Navbar = () => {
         onClick={handleNav}
         className={
           nav
-            ? "absolute left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col"
+            ? "absolute left-0 text-black top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col"
             : "absolute left-[-100%] "
         }
       >
